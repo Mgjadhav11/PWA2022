@@ -2,7 +2,6 @@ const PRECACHE ='precache-v1';
 const RUNTIME = 'runtime';
 
 var PRECACHE_URLS = [
-  '/',
   '/index.html',
   './, //alias for index.html
   'css/style.css',
@@ -14,7 +13,7 @@ var PRECACHE_URLS = [
   'images/hello-icon-196maskable.png',
   'images/hello-icon-256.png',
   'images/hello-icon-512.png',
-  'favicon.ico,
+  'favicon.ico',
   'sw.js'
   ];
 
@@ -33,7 +32,7 @@ self.addEventListener('activate', event => {
 });
   
   
-/* seve cached contenmt when offline */
+/* serve cached contenmt when offline */
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.match(event.request).then(function(response) {
