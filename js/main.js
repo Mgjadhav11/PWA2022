@@ -6,3 +6,4 @@ function regSW(){
       console.log('Service worker: Registered');
     });
   }
+}
