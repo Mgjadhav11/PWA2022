@@ -41,5 +41,6 @@
 	 "lang":"en-US",
   	"start-url": "/PWA0011/index.html",
   	"display": "standalone",
+	"prefer_related_application": false,
   	"theme_color": "white"
 }
