@@ -1,5 +1,5 @@
 function regSW(){
-  if('serviceWorker' in navigator){
-    navigator.serviceWorker
+  if('ServiceWorker' in navigator){
+    navigator.ServiceWorker
   }
 }
