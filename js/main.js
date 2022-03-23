@@ -1,5 +1,5 @@
 function regSW(){
   if('ServiceWorker' in navigator){
-    navigator.ServiceWorker
+    navigator.ServiceWorker.register('./sw.js')
   }
 }
